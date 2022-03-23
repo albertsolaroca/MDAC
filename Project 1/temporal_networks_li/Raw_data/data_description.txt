@@ -1,0 +1,27 @@
+
+Three columns: Source node, Target node, Timestamp
+
+
+where you can find the data:
+
+copresence-LH10
+https://networkrepository.com/copresence-LH10.php
+
+HighSchool:
+https://networkrepository.com/contacts-prox-high-school-2013-attr.php
+
+Hospital:
+https://networkrepository.com/ia-hospital-ward-proximity.php
+
+Hypertext2009:
+http://konect.cc/networks/sociopatterns-hypertext/
+
+Primary_School:
+https://networkrepository.com/ia-primary-school-proximity-attr.php
+
+
+SFHH_conf_sensor:
+https://networkrepository.com/SFHH-conf-sensor.php
+
+Workplace:
+https://networkrepository.com/ia-workplace-contacts.php

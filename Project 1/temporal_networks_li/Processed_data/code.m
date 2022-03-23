@@ -1,0 +1,14 @@
+
+name={'copresence_LH10','copresence_LH10','HighSchool','Hospital','Hypertext2009','Primary_School','SFHH_conf_sensor'};
+for t=1:length(name)
+    A = readmatrix(['C:\Users\li\Desktop\temporal_networks\Raw_data\',name{1,t},'.csv']);
+    u=unique(A(:,3));
+    x=zeros(size(A,1),1);
+    for i=1:length(u)
+         r=(A(:,3)==u(i));
+        x(r,:)=i;
+    end
+A(:,4)=x;
+chr=['C:\Users\li\Desktop\temporal_networks\Processed_data\',name{1,t},'.csv'];
+writematrix(A,chr)
+end
